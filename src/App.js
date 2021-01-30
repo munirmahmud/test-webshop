@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutShop from './components/AboutShop'
 import Featured from './components/Featured'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -12,6 +13,7 @@ const App = () => {
             <Hero />
             <Featured />
             <Newsletter />
+            <AboutShop />
             <Footer />
         </div>
     )
