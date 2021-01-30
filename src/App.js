@@ -1,21 +1,14 @@
 import React from 'react'
-import AboutShop from './components/AboutShop'
-import Featured from './components/Featured'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Newsletter from './components/Newsletter'
+import { Route, Switch } from 'react-router-dom'
+import Cart from './pages/Cart'
+import Home from './pages/Home'
 
 const App = () => {
     return (
-        <div>
-            <Header />
-            <Hero />
-            <Featured />
-            <Newsletter />
-            <AboutShop />
-            <Footer />
-        </div>
+        <Switch>
+            <Route exact to="/" component={Home} />
+            <Route exact to="/cart" component={Cart} />
+        </Switch>
     )
 }
 

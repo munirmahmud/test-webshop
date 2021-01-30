@@ -23,7 +23,7 @@ const Header = () => {
                                 <li className="nav-item"><Link className="nav-link" to="#">Shop</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="#">Help</Link></li>
                                 <li className="nav-item cart">
-                                    <Link className="nav-link" to="#">
+                                    <Link className="nav-link" to="/cart">
                                     <FontAwesomeIcon icon={faShoppingCart} className="mr-2" />
                                         Your Cart</Link>
                                 </li>
