@@ -1,0 +1,23 @@
+.hero-section {
+  height: 60vh;
+}
+.hero-row {
+  height: 100%;
+}
+.hero-section h1 {
+  color: var(--gray-color);
+  position: relative;
+  font-weight: normal;
+  padding-bottom: 4rem;
+}
+.hero-section h1:after {
+  position: absolute;
+  content: "";
+  background: var(--gray-color);
+  height: 1px;
+  width: 50%;
+  bottom: 0;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}

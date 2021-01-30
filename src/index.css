@@ -20,6 +20,16 @@ a {
   color: var(--gray-color);
 }
 
+img {
+  width: 100%;
+}
+
+.link-btn {
+  background: var(--gray-color);
+  width: fit-content;
+  color: var(--white);
+}
+
 .logo {
   text-transform: uppercase;
 }
