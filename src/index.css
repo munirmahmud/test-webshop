@@ -1,3 +1,7 @@
+:root {
+  --gray-color: #606060;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,4 +9,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  color: var(--gray-color);
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.nav .nav-item:not(:first-child):after {
+  position: absolute;
+  content: "|";
+  top: 8px;
+}
+.nav .nav-item.cart:after {
+  content: "";
+}
+
+.nav-item.cart {
+  background: var(--gray-color);
+}
+.nav-item.cart .nav-link {
+  color: var(--white);
 }
