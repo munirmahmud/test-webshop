@@ -1,4 +1,5 @@
 import React from 'react'
+import Featured from './components/Featured'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -8,6 +9,7 @@ const App = () => {
         <div>
             <Header />
             <Hero />
+            <Featured />
             <Footer />
         </div>
     )
