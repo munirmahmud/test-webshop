@@ -6,8 +6,8 @@ import Home from './pages/Home'
 const App = () => {
     return (
         <Switch>
-            <Route exact to="/" component={Home} />
-            <Route exact to="/cart" component={Cart} />
+            <Route exact path="/hello" component={Home} />
+            <Route exact path="/cart" component={Cart} />
         </Switch>
     )
 }

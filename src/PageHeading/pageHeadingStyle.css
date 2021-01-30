@@ -1,0 +1,21 @@
+.page-heading {
+  background: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+.page-heading h1 {
+  color: var(--gray-color);
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  position: relative;
+}
+.page-heading h1::after {
+  position: absolute;
+  content: "";
+  background: var(--gray-color);
+  height: 1px;
+  width: 16rem;
+  bottom: 0;
+  left: 0;
+}
