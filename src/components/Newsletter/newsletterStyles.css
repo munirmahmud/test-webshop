@@ -1,0 +1,9 @@
+.newsletter-form input {
+  border-radius: 0;
+}
+
+.newsletter-form button {
+  background: #ebebeb;
+  border-radius: 0;
+  padding: 0.4rem 2rem;
+}

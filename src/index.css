@@ -27,6 +27,7 @@ img {
 
 button svg {
   color: var(--gray-color);
+  outline: none;
 }
 
 .link-btn {
