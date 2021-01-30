@@ -1,0 +1,10 @@
+.footer-logo h1::after {
+  position: absolute;
+  content: "";
+  background: var(--gray-color);
+  opacity: 0.4;
+  height: 1px;
+  width: 4rem;
+  bottom: 0;
+  left: 0;
+}
