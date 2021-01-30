@@ -1,4 +1,5 @@
 import React from 'react'
+import CartItems from '../components/CartItems'
 import Header from '../components/Header'
 import PageHeading from '../components/PageHeading'
 
@@ -7,6 +8,7 @@ const Cart = () => {
         <div>
             <Header />
             <PageHeading />
+            <CartItems />
         </div>
     )
 }

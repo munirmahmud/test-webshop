@@ -1,0 +1,42 @@
+.cart-product-wrapper {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.cart-content-wrapper {
+  width: 100%;
+}
+.product h2 {
+  font-size: 1.2rem;
+}
+.product p {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+.productimg {
+  width: 100px;
+  height: 100px;
+  background: #ebebeb;
+  border: 1px solid #ddd;
+}
+.product-quantity {
+  width: 4rem;
+}
+
+.coupon {
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-product-wrapper ~ .btn {
+  padding: 0.3rem 3.5rem;
+  border-radius: 0;
+}
+.btn-next {
+  background: #606060;
+  color: #fff;
+}
+.btn-cancel {
+  background: #ebebeb;
+}
